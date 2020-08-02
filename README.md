@@ -1,6 +1,6 @@
-# OLKI.Tools.CommonTools
+# OLKI.Tools.ColorAndPicture
 
-This library provides a lot of tools, I used in my other projects. It will be extended if necessary.
+This library provides a lot of tools to modify images, color and scan files.
 
 ## Getting Started
 
