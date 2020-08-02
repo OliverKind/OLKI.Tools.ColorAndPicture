@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OLKI.Tools.ColorAndPicture", "OLKI.Tools.ColorAndPicture.csproj", "{2E402F8B-A952-4C82-A67B-580218A5AA11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E402F8B-A952-4C82-A67B-580218A5AA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E402F8B-A952-4C82-A67B-580218A5AA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E402F8B-A952-4C82-A67B-580218A5AA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E402F8B-A952-4C82-A67B-580218A5AA11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E941FB24-AB4E-4B6A-A04A-37D1AB3C5925}
+	EndGlobalSection
+EndGlobal
