@@ -10,6 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 * .NET Framework 4.7.2
 
+> To compile the source code you need also the following repositories
+> * -- None --
 ### Installing
 
 You can download the source code or use a binary. The inital autor will provide binaris of this work irregular at his homepage.
