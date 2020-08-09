@@ -22,7 +22,7 @@
  * 
  * */
 
-using OLKI.ColorAndPicture.src.Picture.Scan;
+using OLKI.Tools.ColorAndPicture.src.Picture.Scan;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

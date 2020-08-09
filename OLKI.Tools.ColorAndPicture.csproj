@@ -7,8 +7,8 @@
     <ProjectGuid>{2E402F8B-A952-4C82-A67B-580218A5AA11}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OLKI.ColorAndPicture</RootNamespace>
-    <AssemblyName>OLKI.ColorAndPicture</AssemblyName>
+    <RootNamespace>OLKI.Tools.ColorAndPicture</RootNamespace>
+    <AssemblyName>OLKI.Tools.ColorAndPicture</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

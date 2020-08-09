@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OLKI.ColorAndPicture.src.Picture.Scan {
+namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace OLKI.ColorAndPicture.src.Picture.Scan {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("OLKI.ColorAndPicture.src.Picture.Scan.WIAstringtable", typeof(WIAstringtable).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("OLKI.Tools.ColorAndPicture.src.Picture.Scan.WIAstringtable", typeof(WIAstringtable).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
