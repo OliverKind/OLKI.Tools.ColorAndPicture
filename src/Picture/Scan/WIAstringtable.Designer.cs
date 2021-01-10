@@ -61,7 +61,7 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Ein unbekannter Fehler ist bei scannen aufgetreten. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Ein unbekannter Fehler ist aufgetreten. ähnelt.
         /// </summary>
         internal static string _0x80210001 {
             get {
@@ -70,7 +70,34 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Der gewhälte Scanner ist offline. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Im Dokumenteneinzug des Scanners ist ein Papierstau aufgetreten. ähnelt.
+        /// </summary>
+        internal static string _0x80210002 {
+            get {
+                return ResourceManager.GetString("0x80210002", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Im Dokumenteneinzug befinden sich keine Dokumente. ähnelt.
+        /// </summary>
+        internal static string _0x80210003 {
+            get {
+                return ResourceManager.GetString("0x80210003", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Beim Dokumentenzuführer des Scanners ist ein nicht genauer bekanntes Problem aufgetreten. ähnelt.
+        /// </summary>
+        internal static string _0x80210004 {
+            get {
+                return ResourceManager.GetString("0x80210004", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät ist offline. Stellen Sie sicher, dass das Gerät eingeschaltet und mit dem PC verbunden ist. ähnelt.
         /// </summary>
         internal static string _0x80210005 {
             get {
@@ -79,7 +106,7 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Der Scanner ist nicht bereit um ein Dokument zu scannen. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät ist beschäftigt. Schließen Sie alle Anwendungen die dieses Gerät verwenden oder warten Sie bis es fertig is, und versuchen Sie es erneut. ähnelt.
         /// </summary>
         internal static string _0x80210006 {
             get {
@@ -88,11 +115,128 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Die gewählten Einstellungen werden vom Scanner nicht unterstützt. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät erwärmt sich. ähnelt.
+        /// </summary>
+        internal static string _0x80210007 {
+            get {
+                return ResourceManager.GetString("0x80210007", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Es liegt ein Problem mit dem Gerät vor. Stellen Sie sicher dass das Gerät verbunden und eingeschaltet ist und alle Kabel ordnungsgemäß angeschlossen sind. ähnelt.
+        /// </summary>
+        internal static string _0x80210008 {
+            get {
+                return ResourceManager.GetString("0x80210008", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät wurde gelöscht. Es ist nicht mehr verfügbar. ähnelt.
+        /// </summary>
+        internal static string _0x80210009 {
+            get {
+                return ResourceManager.GetString("0x80210009", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Die Kommunikation mit dem Gerät ist fehlgeschlagen. Stellen Sie sicher, dass das Gerät eingeschaltet und mit dem PC verbunden ist. Wenn das Problem weiterhin besteht, trennen Sie das Gerät und schließen Sie es wieder an. ähnelt.
+        /// </summary>
+        internal static string _0x8021000A {
+            get {
+                return ResourceManager.GetString("0x8021000A", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät unterstützt diesen Befehl nicht. ähnelt.
+        /// </summary>
+        internal static string _0x8021000B {
+            get {
+                return ResourceManager.GetString("0x8021000B", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Die gewählten Einstellungen werden vom Gerät nicht unterstützt. ähnelt.
         /// </summary>
         internal static string _0x8021000C {
             get {
                 return ResourceManager.GetString("0x8021000C", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät ist gesperrt. Schließen Sie alle Anwendungen die dieses Gerät verwenden oder warten Sie bis es fertig ist und versuchen Sie es erneut. ähnelt.
+        /// </summary>
+        internal static string _0x8021000D {
+            get {
+                return ResourceManager.GetString("0x8021000D", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Der Gerätetreiber hat einen nicht näher beschriebenen Fehler gemeldet. ähnelt.
+        /// </summary>
+        internal static string _0x8021000E {
+            get {
+                return ResourceManager.GetString("0x8021000E", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Die Antwort des Gerätetreibers ist ungültig. ähnelt.
+        /// </summary>
+        internal static string _0x8021000F {
+            get {
+                return ResourceManager.GetString("0x8021000F", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        /// </summary>
+        internal static string _0x80210015 {
+            get {
+                return ResourceManager.GetString("0x80210015", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Eine oder mehrere Abdeckungen des Geräts sind geöffnet. ähnelt.
+        /// </summary>
+        internal static string _0x80210016 {
+            get {
+                return ResourceManager.GetString("0x80210016", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Die Lampe des Scanners ist aus. ähnelt.
+        /// </summary>
+        internal static string _0x80210017 {
+            get {
+                return ResourceManager.GetString("0x80210017", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Ein Scanfehler ist aufgrund des Mehrseiteneinzugs aufgetreten. ähnelt.
+        /// </summary>
+        internal static string _0x80210020 {
+            get {
+                return ResourceManager.GetString("0x80210020", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Ein Scanauftrag wurde unterbrochen, weil ein Imprinter / Endorser-Element den maximal gültigen Wert für WIA_IPS_PRINTER_ENDORSER_COUNTER erreicht hat und auf 0 zurückgesetzt wurde. ähnelt.
+        /// </summary>
+        internal static string _0x80210021 {
+            get {
+                return ResourceManager.GetString("0x80210021", resourceCulture);
             }
         }
         
