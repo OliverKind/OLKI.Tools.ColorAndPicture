@@ -196,7 +196,7 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die  ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Es wurde kein Scanner gefunden. Stellen Sie sicher dass das Gerät online ist, mit dem PC verbunden und der richtige Treiber auf dem PC installiert ist. ähnelt.
         /// </summary>
         internal static string _0x80210015 {
             get {

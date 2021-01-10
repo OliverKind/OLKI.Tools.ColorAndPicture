@@ -163,7 +163,7 @@
     <value>Die Antwort des Gerätetreibers ist ungültig.</value>
   </data>
   <data name="0x80210015" xml:space="preserve">
-    <value />
+    <value>Es wurde kein Scanner gefunden. Stellen Sie sicher dass das Gerät online ist, mit dem PC verbunden und der richtige Treiber auf dem PC installiert ist.</value>
   </data>
   <data name="0x80210016" xml:space="preserve">
     <value>Eine oder mehrere Abdeckungen des Geräts sind geöffnet.</value>
