@@ -1,7 +1,7 @@
 ﻿/*
  * OLKI.Tools.ColorAndPicture
  * 
- * Copyright:   Oliver Kind - 2020
+ * Copyright:   Oliver Kind - 2021
  * License:     LGPL
  * 
  * Desctiption:
@@ -68,6 +68,62 @@ namespace OLKI.Tools.ColorAndPicture.Picture.Scan
         }
 
         /// <summary>
+        /// Get the ExceptionMessage for the WIA-Exception an return a new exception with the WIA-Exception as inner exception
+        /// </summary>
+        /// <param name="wiaException"></param>
+        /// <returns>Exception with ExceptionMessage for the WIA-exception, WIA-exception as inner exception </returns>
+        private static Exception GetExceptionMessage(Exception wiaException)
+        {
+            switch ((uint)wiaException.HResult)
+            {
+                case 0x80210001:
+                    return new Exception(WIAstringtable._0x80210001, wiaException);
+                case 0x80210002:
+                    return new Exception(WIAstringtable._0x80210002, wiaException);
+                case 0x80210003:
+                    return new Exception(WIAstringtable._0x80210003, wiaException);
+                case 0x80210004:
+                    return new Exception(WIAstringtable._0x80210004, wiaException);
+                case 0x80210005:
+                    return new Exception(WIAstringtable._0x80210005, wiaException);
+                case 0x80210006:
+                    return new Exception(WIAstringtable._0x80210006, wiaException);
+                case 0x80210007:
+                    return new Exception(WIAstringtable._0x80210007, wiaException);
+                case 0x80210008:
+                    return new Exception(WIAstringtable._0x80210008, wiaException);
+                case 0x80210009:
+                    return new Exception(WIAstringtable._0x80210009, wiaException);
+                case 0x8021000A:
+                    return new Exception(WIAstringtable._0x8021000A, wiaException);
+                case 0x8021000B:
+                    return new Exception(WIAstringtable._0x8021000B, wiaException);
+                case 0x8021000C:
+                    return new Exception(WIAstringtable._0x8021000C, wiaException);
+                case 0x8021000D:
+                    return new Exception(WIAstringtable._0x8021000D, wiaException);
+                case 0x8021000E:
+                    return new Exception(WIAstringtable._0x8021000E, wiaException);
+                case 0x8021000F:
+                    return new Exception(WIAstringtable._0x8021000F, wiaException);
+                case 0x80210015:
+                    return new Exception(WIAstringtable._0x80210015, wiaException);
+                case 0x80210016:
+                    return new Exception(WIAstringtable._0x80210016, wiaException);
+                case 0x80210017:
+                    return new Exception(WIAstringtable._0x80210017, wiaException);
+                case 0x80210020:
+                    return new Exception(WIAstringtable._0x80210020, wiaException);
+                case 0x80210021:
+                    return new Exception(WIAstringtable._0x80210021, wiaException);
+                case 0x80210064:
+                    return new Exception(WIAstringtable._0x80210064, wiaException);
+                default:
+                    return new Exception(WIAstringtable._0x80210001, wiaException);
+            }
+        }
+
+        /// <summary>
         /// Scan an single image, with default resolution
         /// </summary>
         /// <param name="deviceId">Scan device</param>
@@ -129,27 +185,7 @@ namespace OLKI.Tools.ColorAndPicture.Picture.Scan
             }
             catch (Exception ex)
             {
-                switch ((uint)ex.HResult)
-                {
-                    case 0x80210006:    //Scanner not ready
-                        exception = new Exception(WIAstringtable._0x80210006, ex);
-                        break;
-                    case 0x80210064:    //Scan cancled
-                        exception = new Exception(WIAstringtable._0x80210064, ex);
-                        break;
-                    case 0x8021000C:    //Settings not supported
-                        exception = new Exception(WIAstringtable._0x8021000C, ex);
-                        break;
-                    case 0x80210005:    //Scan device offline
-                        exception = new Exception(WIAstringtable._0x80210005, ex);
-                        break;
-                    case 0x80210001:    //Unknown exception
-                        exception = new Exception(WIAstringtable._0x8021000C, ex);
-                        break;
-                    default:
-                        exception = ex;
-                        break;
-                }
+                exception = GetExceptionMessage(ex);
             }
             return null;
         }
