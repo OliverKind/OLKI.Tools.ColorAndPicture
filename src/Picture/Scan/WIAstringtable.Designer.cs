@@ -106,7 +106,7 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät ist beschäftigt. Schließen Sie alle Anwendungen die dieses Gerät verwenden oder warten Sie bis es fertig is, und versuchen Sie es erneut. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Das Gerät ist beschäftigt. Schließen Sie alle Anwendungen die dieses Gerät verwenden oder warten Sie bis es fertig ist und versuchen Sie es erneut. ähnelt.
         /// </summary>
         internal static string _0x80210006 {
             get {
@@ -124,7 +124,7 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Es liegt ein Problem mit dem Gerät vor. Stellen Sie sicher dass das Gerät verbunden und eingeschaltet ist und alle Kabel ordnungsgemäß angeschlossen sind. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Es liegt ein Problem mit dem Gerät vor. Stellen Sie sicher, dass das Gerät verbunden, eingeschaltet ist und alle Kabel ordnungsgemäß angeschlossen sind. ähnelt.
         /// </summary>
         internal static string _0x80210008 {
             get {
@@ -196,7 +196,7 @@ namespace OLKI.Tools.ColorAndPicture.src.Picture.Scan {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Es wurde kein Scanner gefunden. Stellen Sie sicher dass das Gerät online ist, mit dem PC verbunden und der richtige Treiber auf dem PC installiert ist. ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die Es wurde kein Scanner gefunden. Stellen Sie sicher, dass das Gerät online ist, mit dem PC verbunden und der richtige Treiber auf dem PC installiert ist. ähnelt.
         /// </summary>
         internal static string _0x80210015 {
             get {

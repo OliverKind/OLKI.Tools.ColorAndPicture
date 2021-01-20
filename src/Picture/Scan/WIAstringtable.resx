@@ -133,13 +133,13 @@
     <value>Das Gerät ist offline. Stellen Sie sicher, dass das Gerät eingeschaltet und mit dem PC verbunden ist.</value>
   </data>
   <data name="0x80210006" xml:space="preserve">
-    <value>Das Gerät ist beschäftigt. Schließen Sie alle Anwendungen die dieses Gerät verwenden oder warten Sie bis es fertig is, und versuchen Sie es erneut.</value>
+    <value>Das Gerät ist beschäftigt. Schließen Sie alle Anwendungen die dieses Gerät verwenden oder warten Sie bis es fertig ist und versuchen Sie es erneut.</value>
   </data>
   <data name="0x80210007" xml:space="preserve">
     <value>Das Gerät erwärmt sich.</value>
   </data>
   <data name="0x80210008" xml:space="preserve">
-    <value>Es liegt ein Problem mit dem Gerät vor. Stellen Sie sicher dass das Gerät verbunden und eingeschaltet ist und alle Kabel ordnungsgemäß angeschlossen sind.</value>
+    <value>Es liegt ein Problem mit dem Gerät vor. Stellen Sie sicher, dass das Gerät verbunden, eingeschaltet ist und alle Kabel ordnungsgemäß angeschlossen sind.</value>
   </data>
   <data name="0x80210009" xml:space="preserve">
     <value>Das Gerät wurde gelöscht. Es ist nicht mehr verfügbar.</value>
@@ -163,7 +163,7 @@
     <value>Die Antwort des Gerätetreibers ist ungültig.</value>
   </data>
   <data name="0x80210015" xml:space="preserve">
-    <value>Es wurde kein Scanner gefunden. Stellen Sie sicher dass das Gerät online ist, mit dem PC verbunden und der richtige Treiber auf dem PC installiert ist.</value>
+    <value>Es wurde kein Scanner gefunden. Stellen Sie sicher, dass das Gerät online ist, mit dem PC verbunden und der richtige Treiber auf dem PC installiert ist.</value>
   </data>
   <data name="0x80210016" xml:space="preserve">
     <value>Eine oder mehrere Abdeckungen des Geräts sind geöffnet.</value>
