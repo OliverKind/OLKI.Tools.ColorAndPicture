@@ -1,3 +1,7 @@
+**_This Repository is no longer being developed. It was replaced by [OLKI.Toolbox](https://github.com/OliverKind/OLKI.Toolbox)._**
+
+**_Therefore this repository has been archived._**
+
 # OLKI.Tools.ColorAndPicture
 
 This library provides a lot of tools to modify images, color and scan files.
